@@ -15,6 +15,9 @@ const Home = () => {
             <a href="https://www.linkedin.com/in/sri-kailaash-kumar-s-7751b1260/" className="home__social-icon" target="_blank">
             <i class="uil uil-linkedin"></i>
             </a>
+            <a href="https://leetcode.com/u/maximistic/" className="home__social-icon" target="_blank">
+            <i class="uil uil-brackets-curly"></i>
+            </a>
         </div>
     )
 }
