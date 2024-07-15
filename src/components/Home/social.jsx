@@ -1,6 +1,6 @@
 import React from "react";
 
-const Home = () => {
+const Social = () => {
     return(
         <div className="home__social">
             <a href="https://www.instagram.com/" className="home__social-icon" target="_blank">
@@ -22,4 +22,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Social;
