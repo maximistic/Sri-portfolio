@@ -6,8 +6,8 @@ const Frontend = () => {
             <h3 className="skills__title">FrontEnd Developer</h3>
 
             <div className="skills__box">
-                <div className="skills_group">
-                    <div className="skills_data">
+                <div className="skills__group">
+                    <div className="skills__data">
                         <i class="bx bx-badge-check"></i>
 
                         <div>
@@ -16,7 +16,7 @@ const Frontend = () => {
                         </div>
                     </div>
 
-                    <div className="skills_data">
+                    <div className="skills__data">
                         <i class="bx bx-badge-check"></i>
 
                         <div>
@@ -25,7 +25,7 @@ const Frontend = () => {
                         </div>
                     </div>
 
-                    <div className="skills_data">
+                    <div className="skills__data">
                         <i class="bx bx-badge-check"></i>
 
                         <div>
@@ -34,8 +34,8 @@ const Frontend = () => {
                         </div>
                     </div>
                 </div>
-                <div className="skills_group">
-                    <div className="skills_data">
+                <div className="skills__group">
+                    <div className="skills__data">
                         <i class="bx bx-badge-check"></i>
 
                         <div>
@@ -44,7 +44,7 @@ const Frontend = () => {
                         </div>
                     </div>
 
-                    <div className="skills_data">
+                    <div className="skills__data">
                         <i class="bx bx-badge-check"></i>
 
                         <div>
@@ -53,7 +53,7 @@ const Frontend = () => {
                         </div>
                     </div>
 
-                    <div className="skills_data">
+                    <div className="skills__data">
                         <i class="bx bx-badge-check"></i>
 
                         <div>
