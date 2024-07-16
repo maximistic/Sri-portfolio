@@ -6,6 +6,7 @@ import About from './components/About/About'
 import Skills from './components/Skills/Skills';
 import Services from './components/Services/Services';
 import Anims from './components/Animations/Anims.tsx';
+import Qualification from './components/Qualifications/Qualification.jsx';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <About/>
       <Skills/>
       <Services/>
+      <Qualification/>
     </main>
     </>
   );
