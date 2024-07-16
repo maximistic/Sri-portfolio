@@ -23,7 +23,7 @@
 .services__button{
     color: var(--title-color);
     font-size: var(--small-font-size);
-    display: inline flex;
+    display: inline-flex;
     align-items: center;
     column-gap: 0.25rem;
     cursor: pointer;
@@ -36,7 +36,7 @@
     transform: translateX(00.25rem);
 }
 .services__modal{
-    display: none;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -66,6 +66,10 @@
     color: var(--title-color);
     cursor: pointer;
 }
+.services__modal-title,
+.services__modal-description{
+    text-align: center;
+}
 .services__modal-title{
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
@@ -89,5 +93,13 @@
     font-size: 1.1rem;
 }
 .services__modal-info{
-
+    font-size:var(--small-font-size) ;
 }
+
+/*Active modal*/
+
+.active-modal{
+    opacity: 1;
+    visibility: visible;
+}
+
