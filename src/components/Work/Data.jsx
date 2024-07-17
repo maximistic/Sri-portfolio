@@ -14,19 +14,19 @@ export const projectsData = [
     {
       id: 2,
       image: Work2,
-      title: "App movil",
+      title: "Web design",
       category: "app",
     },
     {
       id: 3,
       image: Work3,
-      title: "Brand design",
+      title: "Web design",
       category: "design",
     },
     {
       id: 4,
       image: Work4,
-      title: "App movil",
+      title: "Web design",
       category: "app",
     },
     {
@@ -39,15 +39,15 @@ export const projectsData = [
 
 export const projectsNav = [
     {
-        name:'all',
+        name:'All',
     },
     {
-        name: 'web',
+        name: 'Web',
     },
     {
-        name: 'app',
+        name: 'App',
     },
     {
-        name: 'design',
+        name: 'Design',
     },
 ];
