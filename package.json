@@ -19,12 +19,17 @@
     "@emailjs/browser": "^3.10.0",
     "@rive-app/react-canvas": "^4.13.3",
     "emailjs-com": "^3.2.0",
+    "framer-motion": "^11.3.8",
+    "gsap": "^3.12.5",
     "lottie-react": "^2.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.25.1",
     "react-scripts": "^5.0.1",
-    "rive-react": "^4.13.3"
+    "rive-react": "^4.13.3",
+    "sass": "^1.77.8",
+    "split-text": "^1.0.0",
+    "split-text-js": "^1.0.3"
   },
   "browserslist": {
     "production": [
