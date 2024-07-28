@@ -25,11 +25,11 @@ const Contact = () => {
     return(
         <section className="contact section" id="contact">
             <h2 className="section__title">Get in Touch</h2>
-            <span className="section__subtitle">Contact Me</span>
+            <span className="section__subtitle">Contact</span>
 
             <div className="contact__container container grid">
                 <div className="contact__content">
-                    <h3 className="contact__title">Talk to me</h3>
+                    <h3 className="contact__title">Connect with me</h3>
                     <div className="contact__info">
                         <div className="contact__card">
                             <i className="bx bx-mail-send contact__card-icon"></i>
@@ -37,7 +37,7 @@ const Contact = () => {
                             <h3 className="contact__card-title">Email</h3>
                             <span className="contact__card-data">srikailaash.pr@gmail.com</span>
 
-                            <a href="mailto:srikailaash.pr@gmail.com" className="contact__button">Write to me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="mailto:srikailaash.pr@gmail.com" className="contact__button">Write to me<i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
 
                         <div className="contact__card">
@@ -51,7 +51,7 @@ const Contact = () => {
 
                         <div className="contact__card">
                             <i className="bx bxl-twitter contact__card-icon"></i>
-                            <h3 className="contact__card-title">Twitter</h3>
+                            <h3 className="contact__card-title">X</h3>
                             <span className="contact__card-data">@invic_maneo</span>
                             <a href="https://x.com/invic_maneo" className="contact__button">Write to me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>

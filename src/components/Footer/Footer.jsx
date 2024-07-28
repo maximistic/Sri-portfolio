@@ -31,7 +31,7 @@ const Footer = () => {
                     </a>
                 </div>
 
-                <span className="footer__copy">&#169; maximistic. All Rights Reserved</span>
+                <span className="footer__copy">&#169; Maximistic. All Rights Reserved</span>
             </div>
         </footer>
     )
