@@ -91,34 +91,39 @@ const Services = () => {
                 <div className="services__content">
                     <div>
                         <i className="uil uil-edit services__icon"></i>
-                        <h3 className="services__title">Visual <br/> Designer</h3>
+                        <h3 className="services__title">Machine Learning <br/> Developer</h3>
                     </div>
                     <span onClick={()=>toggleTab(3)} className="services__button">View More <i className="uil uil-arrow-right services__button-icon"></i></span>
 
                     <div className={toggleState === 3 ? "services__modal active-modal": "services__modal"}>
                         <div className="services__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
-                            <h3 className="services__modal-title">Visual Designer</h3>
-                            <p className="services__modal-description">Providing Quality works for clients and Companies</p>
+                            <h3 className="services__modal-title">Machine Learning Developer</h3>
+                            <p className="services__modal-description">Developing innovative solutions for clients and companies</p>
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Develop User Interface</p>
+                                    <p className="services__modal-info">Design and implement ML models</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Work with Machine Learning Models</p>
+                                    <p className="services__modal-info">Optimize algorithms for performance and scalability</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">UX Interaction</p>
+                                    <p className="services__modal-info">Process and analyze large datasets</p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Design mockups of products for Clients</p>
+                                    <p className="services__modal-info">Collaborate on AI-driven product development</p>
+                                </li>
+
+                                <li className="services__modal-service">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+                                    <p className="services__modal-info">Create data visualizations and predictive models</p>
                                 </li>
                             </ul>
                         </div>
