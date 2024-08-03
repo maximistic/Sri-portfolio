@@ -1,6 +1,17 @@
 import React from "react";
 
 const Data = () => {
+  const indiaTextStyle = {
+    fontWeight: '900',
+    fontSize: '1.2em',
+    background: 'linear-gradient(to bottom, #FF9933 45%, #FFFFFF 30% 55%, #138808 55%)',
+    WebkitBackgroundClip: 'text',
+    backgroundClip: 'text',
+    WebkitTextFillColor: 'transparent',
+    padding: '0 4px',
+    display: 'inline-block',
+    margin: '0 2px'
+};
     return(
         <div className="home__data">
             <h1 className="home__title">Sri
@@ -55,8 +66,9 @@ const Data = () => {
                 </svg>
             </h1>
             <h3 className="home__subtitle">Software Developer</h3>
-            <p className="home__description">I'm a SD based in India, open for remote works!</p>
-
+            <p className="home__description">
+            From <span style={indiaTextStyle}>INDIA</span> to the World: Bridging time zones with code!! Loading Innovation...
+            </p>
             <a href="#contact" className="button button--flex">Say Hello 
             <svg
                   class="button__icon"
