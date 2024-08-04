@@ -30,7 +30,8 @@
     "rive-react": "^4.13.3",
     "sass": "^1.77.8",
     "split-text": "^1.0.0",
-    "split-text-js": "^1.0.3"
+    "split-text-js": "^1.0.3",
+    "three": "^0.167.1"
   },
   "browserslist": {
     "production": [
