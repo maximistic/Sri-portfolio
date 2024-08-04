@@ -1,39 +1,46 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
+import Work1 from "../../assets/smartParking.avif";
+import Work2 from "../../assets/telesto.png";
+import Work3 from "../../assets/metadata1.jpg";
 import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
+import Work5 from "../../assets/pizzeria.avif";
+import Work6 from "../../assets/glaucoma.jpg"
 
 export const projectsData = [
     {
       id: 1,
       image: Work1,
-      title: "Web design",
+      title: "Smart Parking Management",
       category: "web",
     },
     {
       id: 2,
       image: Work2,
-      title: "Web design",
-      category: "app",
+      title: "Telesto Energy Pvt Ltd",
+      category: "web",
     },
     {
       id: 3,
       image: Work3,
-      title: "Web design",
+      title: "Meta Data",
       category: "design",
     },
     {
       id: 4,
       image: Work4,
-      title: "Web design",
+      title: "Hanuven",
       category: "app",
     },
     {
       id: 5,
       image: Work5,
-      title: "Web design",
+      title: "Online Pizzeria",
       category: "web",
+    },
+    {
+      id: 6,
+      image: Work6,
+      title: "Glaucoma Detection using Alternet-k",
+      category: "Design",
     },
   ];
 
