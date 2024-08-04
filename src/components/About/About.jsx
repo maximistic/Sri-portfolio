@@ -1,7 +1,10 @@
 import React from "react";
 import "./About.css";
 import AboutImg from "../../assets/me.jpg";
+import goacam from "../../assets/goacam.jpg"
 import CV from "../../assets/Resume.pdf";
+import mang from "../../assets/mang.jpg";
+import kerala from "../../assets/kerala.jpg";
 import Info from "./Info";
 import { motion } from "framer-motion";
 
@@ -26,14 +29,32 @@ const About = () => {
       </motion.span>
 
       <div className="about__container container grid">
-        <motion.img 
-          src={AboutImg} 
-          alt="About Image" 
-          className="about__img"
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-        />
+        <div className="about__images">
+          <motion.img 
+            src={goacam} 
+            alt="About Image Top" 
+            className="about__img about__img-top"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5 }}
+          />
+          <motion.img 
+            src={kerala} 
+            alt="About Image Middle" 
+            className="about__img about__img-middle"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          />
+          <motion.img 
+            src={mang} 
+            alt="About Image Bottom" 
+            className="about__img about__img-bottom"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+          />
+        </div>
         <motion.div 
           className="about__data"
           initial={{ opacity: 0, x: 20 }}
