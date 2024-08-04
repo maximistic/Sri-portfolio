@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.text-wrapper {
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+}
+
+p {
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    margin: 0;
+    line-height: 1.2;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+p:nth-of-type(3) {
+    color: blueviolet;
+}
