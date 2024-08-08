@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Sri-portfolio/static/css/main.a11c4e66.css",
-    "main.js": "/Sri-portfolio/static/js/main.45a21820.js",
+    "main.css": "/Sri-portfolio/static/css/main.c00b0b6d.css",
+    "main.js": "/Sri-portfolio/static/js/main.cb9645f6.js",
+    "static/media/glaucoma.jpg": "/Sri-portfolio/static/media/glaucoma.e4f4027541b651476157.jpg",
     "static/media/parallax-bg.jpg": "/Sri-portfolio/static/media/parallax-bg.a33462290e6660c4aab3.jpg",
     "static/media/kerala.jpg": "/Sri-portfolio/static/media/kerala.ce601d833d2aa47133e3.jpg",
     "static/media/parallax5-person.png": "/Sri-portfolio/static/media/parallax5-person.2cb69b4bfa3eb3fa835d.png",
@@ -9,17 +10,17 @@
     "static/media/mang.jpg": "/Sri-portfolio/static/media/mang.d161a43eaf37a23876d2.jpg",
     "static/media/Resume.pdf": "/Sri-portfolio/static/media/Resume.b9722c4b774b74d154d5.pdf",
     "static/media/goacam.jpg": "/Sri-portfolio/static/media/goacam.a8a5903474e84c26dcc5.jpg",
-    "static/media/work2.jpg": "/Sri-portfolio/static/media/work2.e52a0c2981a6c11ba468.jpg",
+    "static/media/smartParking.avif": "/Sri-portfolio/static/media/smartParking.166a4faa2d0c487ed574.avif",
+    "static/media/metadata1.jpg": "/Sri-portfolio/static/media/metadata1.525d9d52464c060439b8.jpg",
     "static/media/work4.jpg": "/Sri-portfolio/static/media/work4.aee985961b648f4df1f2.jpg",
-    "static/media/work5.jpg": "/Sri-portfolio/static/media/work5.094ec4a2224db8908873.jpg",
-    "static/media/work1.jpg": "/Sri-portfolio/static/media/work1.321b4ae3bf404acdfdc6.jpg",
-    "static/media/work3.jpg": "/Sri-portfolio/static/media/work3.135e9065694bc13dc31d.jpg",
+    "static/media/pizzeria.avif": "/Sri-portfolio/static/media/pizzeria.2bf801607efa4664ce33.avif",
+    "static/media/telesto.png": "/Sri-portfolio/static/media/telesto.18e76379bc9e6ac9f53c.png",
     "index.html": "/Sri-portfolio/index.html",
-    "main.a11c4e66.css.map": "/Sri-portfolio/static/css/main.a11c4e66.css.map",
-    "main.45a21820.js.map": "/Sri-portfolio/static/js/main.45a21820.js.map"
+    "main.c00b0b6d.css.map": "/Sri-portfolio/static/css/main.c00b0b6d.css.map",
+    "main.cb9645f6.js.map": "/Sri-portfolio/static/js/main.cb9645f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.a11c4e66.css",
-    "static/js/main.45a21820.js"
+    "static/css/main.c00b0b6d.css",
+    "static/js/main.cb9645f6.js"
   ]
 }
