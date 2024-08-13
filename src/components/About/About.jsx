@@ -68,7 +68,7 @@ const About = () => {
           </p>
           
           <p className="about__description">
-          With a keen eye for detail and a love for clean code, I've successfully completed over 15 projects, each one a stepping stone in my journey of continuous learning and growth.
+          With a keen eye for detail and a love for clean code, I've successfully completed over 15 projects, each one serving as a stepping stone in my journey of continuous learning and growth.
           </p>
 
           <motion.a 
