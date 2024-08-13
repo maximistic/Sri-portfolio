@@ -98,7 +98,7 @@ const Data = () => {
         </motion.svg>
       </h1>
       <h3 className="home__subtitle">Software Developer</h3>
-      <p className="home__tagline">Crafting elegant solutions to complex problems</p>
+      <p className="home__tagline">Crafting elegant solutions for complex problems</p>
       <p className="home__description">
         From <span style={indiaTextStyle}>INDIA</span> to the World: Bridging time zones with code!! Loading Innovation...
       </p>
